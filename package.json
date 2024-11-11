@@ -1,0 +1,37 @@
+{
+  "name": "backlightofficetask",
+  "version": "1.0.0",
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "nodemon --watch 'src/**/*.ts' --exec src/server.ts",
+    "start": "node dist/server.js",
+    "build": "tsc",
+    "lint": "eslint . --ext .ts"
+  },
+  "keywords": [],
+  "author": "asohyannick",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/http-status-codes": "^1.2.0",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^22.9.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "helmet": "^8.0.0",
+    "http-status-code": "^2.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.8.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.7"
+  }
+}
